@@ -1,0 +1,168 @@
+button {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: aqua;
+}
+
+button.clicked {
+  background-color: green; 
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 200px; /* Adjusted width to a fixed size */
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="text"]:focus {
+  border-color: #4caf50;
+}
+
+.hover-box {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 200px;
+  border: 1px solid black;
+  transition: background-color 0.3s ease;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Input and textarea styles */
+input[type="text"],
+textarea {
+  width: calc(100% - 20px); /* Full width minus padding */
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Textarea specific styles */
+textarea {
+  height: 120px; /* Set height for the textarea */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Checkbox styles */
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* Submit button styles */
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: violet;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: lightgreen;
+}
+
+
+.toggle-text-container {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.toggle-text-container button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.toggle-text-container button:hover {
+  background-color: darkblue;
+}
+
+
+.list-container {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.list-container input[type="text"] {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-container ul li {
+  padding: 8px;
+  background-color: #f2f2f2;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.list-container form {
+  display: flex;
+}
+
+.list-container form input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.list-container form button {
+  padding: 8px 16px;
+  background-color: gold; 
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.list-container form button:hover {
+  background-color: darkgoldenrod; 
+}

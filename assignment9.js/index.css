@@ -1,0 +1,73 @@
+.shweta {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
+  margin: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  opacity: 0.9; 
+}
+
+/* Specific styles for each button */
+button.increment {
+  background-color: aquamarine; /* Green background */
+}
+
+button.decrement {
+  background-color: palevioletred; /* Red background */
+}
+
+button.reset {
+  background-color: lightgreen; /* Blue background */
+}
+
+/* index.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  padding: 15px; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 18px; 
+}
+
+.user-info {
+  margin-top: 20px;
+}
+
+.user-name {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  width: 150px; 
+  height: 150px; 
+}
